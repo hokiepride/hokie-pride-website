@@ -1,0 +1,167 @@
+<!--[if lt IE 9]>
+  <div class="bg-danger text-center">
+    You are using an <strong>outdated</strong> browser. Please
+    <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a>
+    to improve your experience.
+  </div>
+<![endif]-->
+<div class="preloader">
+  <div class="preloader_image"></div>
+</div>
+<!-- search modal -->
+<div
+  class="modal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="search_modal"
+  id="search_modal"
+>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">
+      <i class="rt-icon2-cross2"></i>
+    </span>
+  </button>
+  <div class="widget widget_search">
+    <form method="get" class="searchform search-form form-inline" action="./">
+      <div class="form-group bottommargin_0">
+        <input
+          type="text"
+          value=""
+          name="search"
+          class="form-control"
+          placeholder="Search keyword"
+          id="modal-search-input"
+        />
+      </div>
+      <button type="submit" class="theme_button no_bg_button">Search</button>
+    </form>
+  </div>
+</div>
+<!-- Unyson messages modal -->
+<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+  <div class="fw-messages-wrap ls with_padding">
+    <!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+    <!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		--></div>
+</div>
+<!-- eof .modal -->
+<div id="canvas">
+  <div id="box_wrapper">
+    <header class="page_header header_white toggler_xs_right columns_margin_0">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 display_table">
+            <div class="header_left_logo display_table_cell">
+              <a href="/" class="logo logo_with_text">
+                <img src="/images/logo.png" alt="" />
+                <span class="logo_text">
+                  HokiePRIDE
+                  <small class="highlight4">of Virginia Tech</small>
+                </span>
+              </a>
+            </div>
+            <div class="header_mainmenu display_table_cell text-center">
+              <!-- main nav start -->
+              <nav class="mainmenu_wrapper">
+                <ul class="mainmenu nav sf-menu">
+                  <li class="{% if title == "Home" %} active {% endif %}"><a href="/">Home</a></li>
+                  <!-- about -->
+                  <li class="{% if title == "About" %} active {% endif %}"><a href="/about/">About</a></li>
+                  <!-- eof about -->
+                  <!-- team -->
+                  <li class="{% if title == "Team" %} active {% endif %}">
+                    <a href="/team/">Team</a>
+                    <ul>
+
+                      {% for member in team %}
+                      <li><a href="/team/{{member.id}}">{{member.name}} - {{member.position}}</a></li>
+                      {% endfor %}
+
+                      <!-- interns -->
+                      <li><a href="/team/interns/">Interns</a></li>
+                      <!-- eof interns -->
+
+                      <!-- apply -->
+                      <li>
+                        <a
+                          href="https://goo.gl/forms/9x2VigNlSexpHspL2"
+                          target="_blank"
+                          >apply to be a part of our team!</a
+                        >
+                      </li>
+                      <!-- eof apply -->
+                    </ul>
+                  </li>
+                  <!-- eof team -->
+                  <li class="{% if title == "FAQ" %} active {% endif %}"><a href="/faq/">FAQ</a></li>
+                  <!-- events -->
+                  <li class="{% if title == "Events" %} active {% endif %}"><a href="/events/">events</a></li>
+                  <!-- eof events -->
+
+                  <!-- partners -->
+                  <li><a href="{% if title == "Partners & Resources" %}#partners{% else %}/pr/#{% endif %}">partners</a>
+                    <ul>
+
+                      {% for org in partners %}
+                      <li><a href="/pr/{% if org.slugName %}{{org.slugName}}{% else %}{{org.shortName | slug}}{% endif %}">{{org.shortName}}</a></li>
+                      {% endfor %}
+
+                    </ul>
+                  </li>
+                  <!-- eof partners -->
+
+                  <!-- resources -->
+                  <li><a href="{% if title == "Partners & Resources" %}#resources{% else %}/pr/#resources{% endif %}">resources</a>
+                    <ul>
+
+                      {% for org in resources %}
+                      <li><a href="/pr/{% if org.slugName %}{{org.slugName}}{% else %}{{org.shortName | slug}}{% endif %}">{{org.shortName}}</a></li>
+                      {% endfor %}
+
+                    </ul>
+                  </li>
+                  <!-- eof resources -->
+                  <!-- shop -->
+                  <!-- <li> <a href="shop.html">Shop</a>
+											<ul>
+												<li> <a href="shop.html">Shop</a> </li>
+												<li> <a href="shop-product.html">Single Product</a> </li>
+												<li> <a href="shop-cart.html">Shopping Cart</a> </li>
+												<li> <a href="shop-checkout.html">Checkout</a> </li>
+												<li> <a href="shop-register.html">Registration</a> </li>
+											</ul>
+										</li> -->
+                  <!-- eof shop -->
+                  <!-- contacts -->
+                  <!-- <li> <a href="contact.html">Contacts</a>
+											<ul>
+												<li> <a href="contact.html">Contact 1</a> </li>
+												<li> <a href="contact2.html">Contact 2</a> </li>
+												<li> <a href="contact3.html">Contact 3</a> </li>
+												<li> <a href="contact4.html">Contact 4</a> </li>
+											</ul>
+										</li> -->
+                  <!-- eof contacts -->
+                </ul>
+              </nav>
+              <!-- eof main nav -->
+              <!-- header toggler --><span class="toggle_menu"
+                ><span></span
+              ></span>
+            </div>
+            <div
+              class="header_right_buttons display_table_cell text-right hidden-xs"
+            >
+              <a
+                href="mailto:hokiepride@vt.edu"
+                class="theme_button color2 margin_0"
+                >Contact us now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>

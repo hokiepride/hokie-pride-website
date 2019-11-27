@@ -1,0 +1,90 @@
+---
+layout: layouts/default
+pagination:
+  data: "team"
+  size: 1
+  alias: "member"
+permalink: "team/{{ member.id }}/index.html"
+renderData:
+  title: "{{ member.name }}"
+---
+
+<section class="page_breadcrumbs ls ms section_padding_25 bg_image">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2>{{ member.position }}</h2>
+						</div>
+					</div>
+					<ol class="breadcrumb bottom_breadcrumbs">
+						<li> <a href="/">
+					Home
+				</a> </li>
+						<li> <a href="/team/">Team</a> </li>
+						<li class="active">{{ member.position }}</li>
+					</ol>
+				</div>
+			</section>
+			<section class="ls section_padding_top_100 section_padding_bottom_100 columns_padding_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-5">
+							<article class="vertical-item content-padding big-padding with_border bottom_color_border text-center">
+								<div class="item-media"> <img src="{{ member.image }}" alt=""> </div>
+								<div class="item-content">
+									<header class="entry-header">
+										<h3 class="entry-title small bottommargin_0"> <a href="team-rowan.html">{{ member.name }}</a> </h3> <span class="small-text highlight">{{ member.position }}</span> <span class="small-text highlight">{{ member.pronouns }}</span> </header>
+								</div>
+							</article>
+						</div>
+						<div class="col-sm-7">
+							<!-- Nav tabs -->
+							<ul class="nav nav-tabs color2 topmargin_40" role="tablist">
+								<li class="active"><a href="#tab1" role="tab" data-toggle="tab">Biography</a></li>
+								<li><a href="#tab2" role="tab" data-toggle="tab">Skills</a></li>
+								<li><a href="#tab3" role="tab" data-toggle="tab">Fun Facts</a></li>
+							</ul>
+							<!-- Tab panes -->
+							<div class="tab-content big-padding top-color-border color2 bottommargin_40">
+								<div class="tab-pane fade in active" id="tab1">
+									<h4>Biography:</h4>
+									<p> {{ member.bio }} </p>
+									<h4>Position Description:</h4>
+									<p>The {{ member.position }} Shall:</p>
+									<ul class="list2 color2 checklist greylinks">
+
+                    {% for duty in member.duties %}
+                      <li>{{duty}}</li>
+                    {% endfor %}
+
+									</ul>
+
+								</div>
+								<div class="tab-pane fade" id="tab2">
+									<h4>Top 5 Strengths:</h4>
+
+                  {% for strength in member.strengths %}
+									<p class="progress-bar-title"> {{ strength }} </p>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" data-transitiongoal="{% cycle "100", "90", "80", "70", "60" %}">  </div>
+									</div>
+                  {% endfor %}
+
+								</div>
+								<div class="tab-pane fade" id="tab3">
+									<h4>Fun Facts:</h4>
+									<ul class="list2 color2 checklist greylinks">
+
+										{% for fact in member.funfacts %}
+                    <li>{{ fact }}</li>
+                    {% endfor %}
+
+							    </ul>
+
+								</div>
+							</div>
+							<!-- eof .tab-content -->
+						</div>
+					</div>
+				</div>
+			</section>

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+  <head>
+    <meta charset="utf-8">
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/animations.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/main.css" class="color-switcher-link">
+    <link rel="stylesheet" href="/css/shop.css" class="color-switcher-link">
+    <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+    {% if renderData.title %}
+      <title>{{ renderData.title | safe }} - Hokie PRIDE of Virginia Tech</title>
+    {% elsif title %}
+      <title>{{ title | safe }} - Hokie PRIDE of Virginia Tech</title>
+    {% else %}
+      <title>Hokie PRIDE of Virginia Tech</title>
+    {% endif %}
+  </head>
+
+  <body>
+    {% include components/header.html %}
+    {{ content | safe }}
+    {% include components/footer.html %}
+  </body>
+
+</html>

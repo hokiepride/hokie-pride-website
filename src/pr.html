@@ -1,0 +1,63 @@
+---
+layout: layouts/default
+title: Partners & Resources
+---
+
+<section class="page_breadcrumbs ls ms section_padding_25 bg_image">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2>Partners & Resources</h2>
+						</div>
+					</div>
+					<ol class="breadcrumb bottom_breadcrumbs">
+						<li> <a href="/">Home</a> </li>
+						<li class="active">Partners & Resources</li>
+					</ol>
+				</div>
+			</section>
+			<section class="ls section_padding_top_20 section_padding_bottom_0 columns_margin_bottom_20">
+				<div class="container">
+				<a  id="partners"></a>
+				<h2 class="section_header topmargin_0">Partners</h2>
+					<div class="row flex-wrap">
+
+            {% for org in partners %}
+						<div class="col-md-4 col-sm-6">
+							<article class="vertical-item content-padding big-padding with_border bottom_color_border loop-color text-center">
+								<div class="item-media"> <img src="{{org.image}}" alt=""> </div>
+								<div class="item-content">
+									<header class="entry-header">
+										<h3 class="entry-title small"> <a href="/pr/{% if org.slugName %}{{org.slugName}}{% else %}{{org.shortName | slug}}{% endif %}">{{org.shortName}}</a> </h3>
+									</header>
+									<p class="content-3lines-ellipsis"> {{org.shortBio}} </p>
+								</div>
+							</article>
+						</div>
+            {% endfor %}
+
+					</div>
+				</div>
+			</section>
+			<section class="ls section_padding_top_20 section_padding_bottom_100 columns_margin_bottom_20">
+				<div class="container">
+				<h2 class="section_header topmargin_0" id="resources">Resources</h2>
+					<div class="row flex-wrap">
+
+            {% for org in resources %}
+						<div class="col-md-4 col-sm-6">
+							<article class="vertical-item content-padding big-padding with_border bottom_color_border loop-color text-center">
+								<div class="item-media"> <img src="{{org.image}}" alt=""> </div>
+								<div class="item-content">
+									<header class="entry-header">
+										<h3 class="entry-title small"> <a href="/pr/{% if org.slugName %}{{org.slugName}}{% else %}{{org.shortName | slug}}{% endif %}">{{org.shortName}}</a> </h3>
+									</header>
+									<p class="content-3lines-ellipsis"> {{org.shortBio}} </p>
+								</div>
+							</article>
+						</div>
+            {% endfor %}
+
+					</div>
+				</div>
+			</section>

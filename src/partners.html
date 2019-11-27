@@ -1,0 +1,41 @@
+---
+pagination:
+  data: "partners"
+  size: 1
+  alias: "org"
+layout: layouts/default
+permalink: "/pr/{% if org.slugName %}{{org.slugName}}{% else %}{{org.shortName | slug}}{% endif %}/index.html"
+renderData:
+  title: "{{org.shortName}}"
+---
+			<section class="page_breadcrumbs ls ms section_padding_25 bg_image">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2>{{org.shortName}}</h2>
+						</div>
+					</div>
+					<ol class="breadcrumb bottom_breadcrumbs">
+						<li> <a href="/">
+					Home
+				</a> </li>
+						<li> <a href="/pr/">Partners</a> </li>
+						<li class="active">{{org.shortName}}</li>
+					</ol>
+				</div>
+			</section>
+			<section class="ls section_padding_top_100 section_padding_bottom_100">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12"> <img src="{{org.image}}" alt="" class="alignright">
+							<h2 class="section_header topmargin_0">{{org.longName}}</h2>
+							{{org.longBio}}
+							<!-- <ul class="list2 checklist">
+								<li>Corned beef prosciutto bacon beef</li>
+								<li>Venison beef shoulder pastrami</li>
+								<li>Andouille t-bone brisket drumstick</li>
+							</ul> -->
+						</div>
+					</div>
+				</div>
+			</section>
