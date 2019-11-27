@@ -63,4 +63,26 @@ module.exports = [
                   <p>For more information, visit <a href="https://sites.google.com/vt.edu/vtlgbtcaucus" target="_blank"> the LGBT Caucus website</a>.</h4>
                 `
   },
+  {
+    "image": "/images/partners/qgpa.png",
+    "shortName": "QGPA",
+    "longName": "Queer Grads, Professionals and Allies",
+    "shortBio": "A diverse group of graduate students and faculty that provides support, resources, and events. Currently inactive.",
+    "longBio":  `
+                  <p>QGPA typically meets bi-weekly for events that range from game nights to bowling to happy hours. Events primarily take place on Fridays or Saturdays; however, occasionally QGPA will meet on weeknights.</p>
+                  <p>For questions, contact them at <a href="mailto:qgpavt@gmail.com">qgpavt@gmail.com</a>!</p>
+                  <p>Currently, this org is inactive and not officially recognized.  Contact us if you're interested in rebooting it!</h4>
+                `
+  },
+  {
+    "image": "/images/partners/ostem.png",
+    "shortName": "oSTEM",
+    "longName": "Out in STEM at Virginia Tech",
+    "shortBio": "A national organization focused on LGBTQ+ issues in STEM fields. Our VT chapter is currently inactive.",
+    "longBio":  `
+                  <p>Started in October 2005, oSTEM is a national student-run organization that exists to serve and affirm LGBTQA individuals and their allies in academia and the workplace. As a national organization, oSTEM exists to support LGBTQA students and other individuals in the fields of science, technology, engineering, and mathematics by creating a dynamic network that connects students to professionals in their fields of study, as well as to each other. The Virginia Tech chapter of oSTEM existed to foster leadership and community for LGBTQA students in STEM fields, and to prepare them for a future after university.</p>
+                  <p>You can find the national oSTEM website at <a href="https://www.ostem.org">ostem.org</a>.</p>
+                  <p>Currently, the VT chapter is inactive and not officially recognized.  Contact us if you're interested in rebooting it!</h4>
+                `
+  }
 ]
