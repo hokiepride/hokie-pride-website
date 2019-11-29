@@ -23,6 +23,26 @@ module.exports = [
                 `
   },
   {
+    "image": "/images/partners/exlapide.png",
+    "shortName": "Ex Lapide Society",
+    "longName": "Ex Lapide Alumni Society",
+    "shortBio": "The LGBTQ alumni network of Virginia Tech.",
+    "longBio":  `
+                  <p>Ex Lapide [eks-la-pi-de] (Latin for Out of Stone) is a free Virginia Tech alumni society for lesbian, gay, bisexual, transgender, queer, questioning, and alumni allies.</p>
+                  <p>Their mission is to build a network of LGBTQA alumni, promote close fellowship along LGBTQA alumni, students, and friends of the university, establish effective relationships between Virginia Tech and LGBTQA alumni and supporters, encourage LGBTQA alumni involvement with Virginia Tech and the Alumni Association, represent the needs and interest of LQBTQA alumni and supporters, assist Virginia Tech in diversity and inclusion efforts, and to help undergraduate and graduate students transition from the academic world to the work place.</p>
+                  <p>For more information, visit <a href="https://vtexlapide.org/">their website</a>.</h4>
+                `
+  },
+  {
+    "image": "/images/partners/truecolors.png",
+    "shortName": "True Colors",
+    "longName": "True Colors",
+    "shortBio": "A supportive place for all trans and nonbinary people. ",
+    "longBio":  `
+                  <p>insert bio here</h4>
+                `
+  },
+  {
     "image": "/images/partners/sfcc.png",
     "shortName": "Students for Cultivating Change",
     "longName": "Students for Cultivating Change",
@@ -42,17 +62,6 @@ module.exports = [
                 `
   },
   {
-    "image": "/images/partners/exlapide.png",
-    "shortName": "Ex Lapide Society",
-    "longName": "Ex Lapide Alumni Society",
-    "shortBio": "The LGBTQ alumni network of Virginia Tech.",
-    "longBio":  `
-                  <p>Ex Lapide [eks-la-pi-de] (Latin for Out of Stone) is a free Virginia Tech alumni society for lesbian, gay, bisexual, transgender, queer, questioning, and alumni allies.</p>
-                  <p>Their mission is to build a network of LGBTQA alumni, promote close fellowship along LGBTQA alumni, students, and friends of the university, establish effective relationships between Virginia Tech and LGBTQA alumni and supporters, encourage LGBTQA alumni involvement with Virginia Tech and the Alumni Association, represent the needs and interest of LQBTQA alumni and supporters, assist Virginia Tech in diversity and inclusion efforts, and to help undergraduate and graduate students transition from the academic world to the work place.</p>
-                  <p>For more information, visit <a href="https://vtexlapide.org/">their website</a>.</h4>
-                `
-  },
-  {
     "image": "/images/partners/caucus.png",
     "shortName": "LGBT Caucus @ VT",
     "longName": "LGBT Faculty & Staff Caucus",
@@ -64,8 +73,9 @@ module.exports = [
                 `
   },
   {
+    "slugName": "qgpa",
     "image": "/images/partners/qgpa.png",
-    "shortName": "QGPA",
+    "shortName": "QGPA (Inactive)",
     "longName": "Queer Grads, Professionals and Allies",
     "shortBio": "A diverse group of graduate students and faculty that provides support, resources, and events. Currently inactive.",
     "longBio":  `
@@ -75,10 +85,11 @@ module.exports = [
                 `
   },
   {
+    "slugname": "ostem",
     "image": "/images/partners/ostem.png",
-    "shortName": "oSTEM",
+    "shortName": "oSTEM (Inactive)",
     "longName": "Out in STEM at Virginia Tech",
-    "shortBio": "A national organization focused on LGBTQ+ issues in STEM fields. Our VT chapter is currently inactive.",
+    "shortBio": "A national organization focused on LGBTQ+ issues in STEM fields.",
     "longBio":  `
                   <p>Started in October 2005, oSTEM is a national student-run organization that exists to serve and affirm LGBTQA individuals and their allies in academia and the workplace. As a national organization, oSTEM exists to support LGBTQA students and other individuals in the fields of science, technology, engineering, and mathematics by creating a dynamic network that connects students to professionals in their fields of study, as well as to each other. The Virginia Tech chapter of oSTEM existed to foster leadership and community for LGBTQA students in STEM fields, and to prepare them for a future after university.</p>
                   <p>You can find the national oSTEM website at <a href="https://www.ostem.org">ostem.org</a>.</p>

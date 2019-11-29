@@ -1,6 +1,23 @@
 module.exports = [
   {
-    "id": 1,
+    "id": "advisor",
+    "name": "Ashleigh Bingham",
+    "pronouns": "She/Her",
+    "position": "Resource Center Director",
+    "image": "/images/faces/Bing.jpg",
+    "bio": "Insert Bio Here",
+    "duties": [
+                "Insert Duties Here"
+               ],
+    "strengths": ["Strength1",
+                  "Strength2",
+                  "Strength3",
+                  "Strength4",
+                  "Strength5"],
+    "funfacts": ["I don't have a bio yet.",  ]
+  },
+  {
+    "id": "cp1",
     "name": "Nathaniel Soss",
     "pronouns": "He/Him",
     "position": "Co-President",
@@ -31,7 +48,7 @@ module.exports = [
 										"Seriously, someone tell me how to stop being obsessed with traveling.",]
   },
   {
-    "id": 2,
+    "id": "cp2",
     "name": "Phoebe/Panic Gregg",
     "pronouns": "They/She",
     "position": "Co-President",
@@ -61,7 +78,7 @@ module.exports = [
 										" I work in the Frith Engineering Lab. "],
   },
   {
-    "id": 3,
+    "id": "vp",
     "name": "Ben Janosy",
     "pronouns": "He/Him",
     "position": "Vice President",
@@ -88,7 +105,7 @@ module.exports = [
                 ],
   },
   {
-    "id": 4,
+    "id": "finance",
     "name": "RJ Loyd",
     "pronouns": "They/Them",
     "position": "Finance Chair",
@@ -117,7 +134,7 @@ module.exports = [
                 ],
   },
   {
-    "id": 5,
+    "id": "webtech",
     "name": "Lexi Flad",
     "pronouns": "She/They",
     "position": "Web & Technology Chair",
@@ -148,7 +165,7 @@ module.exports = [
                 ],
   },
   {
-    "id": 6,
+    "id": "resource",
     "name": "Kinsey Cox",
     "pronouns": "She/They",
     "position": "Resource & Secretarial Chair",
