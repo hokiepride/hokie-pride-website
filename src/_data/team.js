@@ -78,10 +78,10 @@ module.exports = [
 										" I work in the Frith Engineering Lab. "],
   },
   {
-    "id": "vp",
+    "id": "vp1",
     "name": "Ben Janosy",
     "pronouns": "He/Him",
-    "position": "Vice President",
+    "position": "Co-Vice President",
     "image": "/images/faces/BenJ.jpg",
     "bio": "I'm a sophomore in Virginia Tech's Corps of Cadets, studying political science. ",
     "duties": [
@@ -102,6 +102,33 @@ module.exports = [
                   "I was born in Russia.",
                   "I'm from Wheaton, Illinois.",
                   "I was a varsity swimmer."
+                ],
+  },
+  {
+    "id": "vp2",
+    "name": "Kinsey Cox",
+    "pronouns": "She/They",
+    "position": "Co-Vice President",
+    "image": "/images/faces/Kinsey.jpg",
+    "bio": "Hey y'all, I'm so excited to work with HokiePRIDE this year! I'm passionate about communication, social justice, and community building. When I graduate, I want to work in higher education student affairs. I look forward to meeting you this semester and if you have an idea, let us know how HokiePRIDE can help! ",
+    "duties": [
+                "Maintain contact with LGBTQ affiliated organizations on campus including but not limited to Queer People of Color, OSTEM, QGPA, and the LGBT Caucus and report communication with the Engagement Committee;",
+                "Carry out delegated correspondence within the organization and with outside groups, persons, and institutions;",
+                "Cultivate leadership traits of Engagement Committee members in their charge and the organizational development of HokiePRIDE;",
+                "Act in the role of President in the event the current President cannot carry out their duties;",
+                "Create, maintain, and distribute an official HokiePRIDE of Virginia Tech Engagement Committee Handbook to all Engagement Committee members; and",
+                "Work with the President and Treasurer to compile the annual budget.",
+                "Coordinate with the President to determine which of the responsibilities listed herein should be completed and distribute said responsibilities between each other.",
+               ],
+    "strengths": ["Woo",
+                  "Individualization",
+                  "Communication",
+                  "Futuristic",
+                  "Input"],
+    "funfacts": [
+                  "DND Nerd",
+                  "Beater in Quidditch",
+                  "Really into Podcasts!!!"
                 ],
   },
   {
@@ -164,32 +191,4 @@ module.exports = [
                   ",,,graphic design",
                 ],
   },
-  {
-    "id": "resource",
-    "name": "Kinsey Cox",
-    "pronouns": "She/They",
-    "position": "Resource & Secretarial Chair",
-    "image": "/images/faces/Kinsey.jpg",
-    "bio": "Hey y'all, I'm so excited to work with HokiePRIDE this year! I'm passionate about communication, social justice, and community building. When I graduate, I want to work in higher education student affairs. I look forward to meeting you this semester and if you have an idea, let us know how HokiePRIDE can help! ",
-    "duties": [
-                "Keep and distribute a detailed record of minutes for all proceedings of the Engagement Committee and activities during general body meetings;",
-                "Send out a weekly newsletter to the general body of HokiePRIDEs upcoming events, announcements, any research opportunities, and announcements/events from other groups/organizations at Virginia Tech and in Blacksburg;",
-                "Have an updated inventory of the items we have in Squires;",
-                "Is primarily responsible for maintaining the supply and ordering condoms and lube as necessary;",
-                "Operate the Resource Library by maintaining the library catalog in accordance with established standards, handling requisition and dispersal of all HokiePRIDE Resource Library materials and by generating a log of needed materials to enhance the HokiePRIDE Resource Library;",
-                "Work with the Web & Technology Chair to help maintain the Google Drive; and, ",
-                "Keep, organize, and update photo and digital record of all HokiePRIDE events and programs.",
-                "This committee shall be filled with however many individuals are needed to complete the task.",
-               ],
-    "strengths": ["Woo",
-                  "Individualization",
-                  "Communication",
-                  "Futuristic",
-                  "Input"],
-    "funfacts": [
-                  "DND Nerd",
-                  "Beater in Quidditch",
-                  "Really into Podcasts!!!"
-                ],
-  }
 ]

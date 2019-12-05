@@ -13,5 +13,10 @@ module.exports = [
     "name": "Lami Akinyemi",
     "pronouns": "He/Him",
     "image": "/images/faces/Lami.jpg"
+  },
+  {
+    "name": "Erin Cross-Kaplan",
+    "pronouns": "She/her",
+    "image": "/images/faces/Erin.jpg"
   }
 ]
