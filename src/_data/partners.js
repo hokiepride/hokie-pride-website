@@ -37,9 +37,16 @@ module.exports = [
     "image": "/images/partners/truecolors.png",
     "shortName": "True Colors",
     "longName": "True Colors",
-    "shortBio": "A supportive place for all trans and nonbinary people. ",
+    "shortBio": "A group for transgender, non-binary, gender nonconforming, and/or gender questioning people at VT.",
     "longBio":  `
-                  <p>insert bio here</h4>
+                  <p>True Colors at Virginia Tech provides a safe space for Virginia Tech students (undergrad and graduate), faculty, and alumni under the trans umbrella to meet each other, form community, and discuss issues relevant to their identities and to their lives in general. This is a place where members of the organization can seek support from one another and share resources with each other in a conversational manner.</p>
+                  <p>By having such a safe space, this organization seeks to be inclusive of people of all transgender, non-binary, gender nonconforming, gender-questioning, and similar gender identities. True Colors also recognizes the impact of intersectionality of gender identity with factors such as race and cultural/ethnic background, sexual orientation, birth assignment, disability, and so on.</p>
+
+                  <ul>True Colors can be contacted via:
+                    <li>Email: <a href="mailto:VTTrueColors@gmail.com">VTTrueColors@gmail.com</a></li>
+                    <li>Twitter: <a href="https://twitter.com/truecolorsVT">@TrueColorsVT</a></li>
+                    <li>Facebook: <a href="Facebook.com/TrueColorsVT">TrueColorsVT</a></li>
+                  </ul>
                 `
   },
   {
@@ -73,11 +80,22 @@ module.exports = [
                 `
   },
   {
+    "image": "/images/partners/hero.png",
+    "shortName": "HERO",
+    "longName": "HERO",
+    "shortBio": "A group dedicated to supporting queer people within the Virginia Tech Corps of Cadets.",
+    "longBio":  `
+                  <p>The mission of H.E.R.O. is to promote awareness and support of the LGBTQ+ community within the Virginia Tech Corps of Cadets. Through H.E.R.O. we will identify and overcome obstacles for members and supporters of the LGBTQ+ community while promoting education and acceptance outside of the LGBTQ+ community.</p>
+                  <p>For more information, contact Ben Janosy <a href="mailto:bjanosy@vt.edu" target="_blank"> here</a>.</h4>
+                `
+  },
+  {
+    "category": "inactive",
     "slugName": "qgpa",
     "image": "/images/partners/qgpa.png",
-    "shortName": "QGPA (Inactive)",
+    "shortName": "QGPA",
     "longName": "Queer Grads, Professionals and Allies",
-    "shortBio": "A diverse group of graduate students and faculty that provides support, resources, and events. Currently inactive.",
+    "shortBio": "A diverse group of graduate students and faculty that provides support, resources, and events.",
     "longBio":  `
                   <p>QGPA typically meets bi-weekly for events that range from game nights to bowling to happy hours. Events primarily take place on Fridays or Saturdays; however, occasionally QGPA will meet on weeknights.</p>
                   <p>For questions, contact them at <a href="mailto:qgpavt@gmail.com">qgpavt@gmail.com</a>!</p>
@@ -85,9 +103,10 @@ module.exports = [
                 `
   },
   {
+    "category": "inactive",
     "slugname": "ostem",
     "image": "/images/partners/ostem.png",
-    "shortName": "oSTEM (Inactive)",
+    "shortName": "oSTEM",
     "longName": "Out in STEM at Virginia Tech",
     "shortBio": "A national organization focused on LGBTQ+ issues in STEM fields.",
     "longBio":  `

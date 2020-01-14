@@ -23,6 +23,7 @@ title: Partners & Resources
 					<div class="row flex-wrap">
 
             {% for org in partners %}
+						{% if org.category == inactive %}
 						<div class="col-md-4 col-sm-6">
 							<article class="vertical-item content-padding big-padding with_border bottom_color_border loop-color text-center">
 								<div class="item-media"> <img src="{{org.image}}" alt=""> </div>
@@ -34,6 +35,32 @@ title: Partners & Resources
 								</div>
 							</article>
 						</div>
+						{% endif %}
+            {% endfor %}
+
+					</div>
+				</div>
+			</section>
+			<section class="ls section_padding_top_20 section_padding_bottom_0 columns_margin_bottom_20">
+				<div class="container">
+				<h2 class="section_header topmargin_0">Inactive Partners</h2>
+				<p> These orgs don't have anyone to run them at the moment, so they're currently inactive. Contact us if you're interested in rebooting them! </p>
+					<div class="row flex-wrap">
+
+            {% for org in partners %}
+						{% if org.category != inactive %}
+						<div class="col-md-4 col-sm-6">
+							<article class="vertical-item content-padding big-padding with_border bottom_color_border loop-color text-center">
+								<div class="item-media"> <img src="{{org.image}}" alt=""> </div>
+								<div class="item-content">
+									<header class="entry-header">
+										<h3 class="entry-title small"> <a href="/pr/{% if org.slugName %}{{org.slugName}}{% else %}{{org.shortName | slug}}{% endif %}">{{org.shortName}}</a> </h3>
+									</header>
+									<p class="content-3lines-ellipsis"> {{org.shortBio}} </p>
+								</div>
+							</article>
+						</div>
+						{% endif %}
             {% endfor %}
 
 					</div>
