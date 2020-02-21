@@ -27,7 +27,7 @@ renderData:
 			<section class="ls section_padding_top_50 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-12"> <img src="{{org.image}}" alt="" class="alignright">
+						<div class="col-xs-12"> <img src="{% if org.largeImage %}{{org.largeImage}}{% else %}{{org.image}}{% endif %}" alt="" class="alignright">
 							<h2 class="section_header topmargin_0">{{org.longName}}</h2>
 							{{org.longBio}}
 							<!-- <ul class="list2 checklist">

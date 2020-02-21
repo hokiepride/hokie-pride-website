@@ -1,9 +1,9 @@
 // docs: https://www.11ty.io/docs/config/
 
 module.exports = function(eleventyConfig) {
-  
+
   // eleventyConfig.addFilter( "myFilter", function() {});
- 
+
   eleventyConfig.addPassthroughCopy("css")
   eleventyConfig.addPassthroughCopy("documents")
   eleventyConfig.addPassthroughCopy("fonts")
@@ -12,7 +12,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("js")
   eleventyConfig.addPassthroughCopy("mailchimp")
   eleventyConfig.addPassthroughCopy("favicon.ico")
-  
+
   return {
     dir: {
       input: "src",

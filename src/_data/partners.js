@@ -2,6 +2,7 @@ module.exports = [
   {
     "slugName": "Qmmunity",
     "image": "/images/partners/qmmunity.png",
+    "largeImage": "/images/partners/Qmmunity Flyer.png",
     "shortName": "Q*mmunity",
     "longName": "Q*mmunity Support Group",
     "shortBio": "Welcomes LGBTQ+ folks and those exploring their gender and sexuality to connect and share experiences. ",
@@ -65,7 +66,8 @@ module.exports = [
     "longName": "spAAce",
     "shortBio": "A support group for people on the asexual or aromantic spectrum. ",
     "longBio":  `
-                  <p>A new community support group for those on the asexual or aromantic spectrum. Come see what we're about!</h4>
+                  <p>spAAce is a community for those on the asexual and aromantic spectrum as well as allies. It meets at 6pm the 2nd and 4th Fridays of each month.</p>
+                  <p>If you have any questions, contact <a href="mailto:kinseyc8@vt.edu">kinseyc8@vt.edu</a>.</h4>
                 `
   },
   {
