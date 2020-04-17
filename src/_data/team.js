@@ -86,32 +86,6 @@ module.exports = [
   },
   {
     "id": "vp1",
-    "name": "Ben Janosy",
-    "pronouns": "He/Him",
-    "position": "Co-Vice President",
-    "image": "/images/faces/BenJ.jpg",
-    "bio": "I'm a sophomore in Virginia Tech's Corps of Cadets, studying political science. ",
-    "duties": [
-                "Maintain contact with LGBTQ affiliated organizations on campus including but not limited to Queer & Trans People of Color (QTPOC), Out in STEM (OSTEM), True Colors, and the LGBT Caucus and report communication with the EC;",
-                "Cultivate leadership traits of officers in their charge and the organizational development of HokiePRIDE;",
-                "Act in the role of President in the event the current President cannot carry out their duties;",
-                "Onboard all new officers using provided materials;",
-                "Manage and delegate tasks to interns; and",
-                "Work with the President and Finance Chair to compile the annual budget.",
-               ],
-    "strengths": ["Strategic",
-                  "Ideation",
-                  "Input",
-                  "Learner",
-                  "Acheiver"],
-    "funfacts": [
-                  "I was born in Russia.",
-                  "I'm from Wheaton, Illinois.",
-                  "I was a varsity swimmer."
-                ],
-  },
-  {
-    "id": "vp2",
     "name": "Kinsey Cox",
     "pronouns": "She/They",
     "position": "Co-Vice President",
@@ -134,6 +108,32 @@ module.exports = [
                   "DND Nerd",
                   "Beater in Quidditch",
                   "Really into Podcasts!!!"
+                ],
+  },
+  {
+    "id": "vp2",
+    "name": "Ben Janosy",
+    "pronouns": "He/Him",
+    "position": "Co-Vice President",
+    "image": "/images/faces/BenJ.jpg",
+    "bio": "I'm a sophomore in Virginia Tech's Corps of Cadets, studying political science. ",
+    "duties": [
+                "Maintain contact with LGBTQ affiliated organizations on campus including but not limited to Queer & Trans People of Color (QTPOC), Out in STEM (OSTEM), True Colors, and the LGBT Caucus and report communication with the EC;",
+                "Cultivate leadership traits of officers in their charge and the organizational development of HokiePRIDE;",
+                "Act in the role of President in the event the current President cannot carry out their duties;",
+                "Onboard all new officers using provided materials;",
+                "Manage and delegate tasks to interns; and",
+                "Work with the President and Finance Chair to compile the annual budget.",
+               ],
+    "strengths": ["Strategic",
+                  "Ideation",
+                  "Input",
+                  "Learner",
+                  "Acheiver"],
+    "funfacts": [
+                  "I was born in Russia.",
+                  "I'm from Wheaton, Illinois.",
+                  "I was a varsity swimmer."
                 ],
   },
   {
@@ -191,6 +191,54 @@ module.exports = [
                   "",
                   "",
                   ",,,graphic design",
+                ],
+  },
+  {
+    "id": "outreach",
+    "name": "Dawn Schell",
+    "pronouns": "She/Her",
+    "position": "Outreach Chair",
+    "image": "/images/faces/Dawn.jpg",
+    "bio":"Pansexual, mother to a trans son. Nontraditional student who wants everyone to be treated as people! Blacksburg is my home, and I love the diversity and inclusiveness, and I am working to help those qualities grow.",
+    "duties": [
+                "Maintain contact and outreach with other, non-LGBTQ affiliated on-campus organizations and academic departments;",
+                "Facilitate conversations with organizations inside and outside the university who wish to coordinate with HokiePRIDE; and",
+                "Actively seek out opportunities for co-sponsorship, financial or otherwise, of events with other Cultural and Community Center USCOs, RSOs, and other university affiliates and offices."
+
+              ],
+    "strengths": ["Input",
+                  "Connectedness",
+                  "Learner",
+                  "Empathy",
+                  "Developer"],
+    "funfacts": [
+                  "Three of our 4 cats are named for NCIS characters, because they're siblings, and my partner's last name is Gibbs.",
+                  "I'm a total geek, and a gamer",
+                  "I think in music",
+                  "I love snow (except the icky, heavy, rain-like stuff)."
+                ],
+  },
+  {
+    "id": "social",
+    "name": "Erin Cross-Kaplan",
+    "pronouns": "She/Her",
+    "position": "Social Media Chair",
+    "image": "/images/faces/Erin.jpg",
+    "bio":"I am a sophomore cadet at Virginia Tech studying chemistry.  I love playing the piano, reading and writing, and hiking.",
+    "duties": [
+                "Maintain and curate the organization’s social media presence to be a safe and inclusive virtual environment for all HokiePRIDE members in accordance with Article III of the Constitution;",
+                "Send announcements over social media for all HokiePRIDE General Body Meetings and events, using content provided by the Advertising Chair; and",
+                "Coordinating responses to direct messages on all social media platforms."
+              ],
+    "strengths": ["Input",
+                  "Achiever",
+                  "Intellection",
+                  "Discipline",
+                  "Strategic"],
+    "funfacts": [
+                  "I studied Latin for 3 years.",
+                  "I am a twin.",
+                  "I'm from San Francisco, CA."
                 ],
   },
 ]
