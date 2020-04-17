@@ -3,7 +3,7 @@
 This is a new repository I made for the Hokie PRIDE website source code, so we have a shared place for it. It uses a static site generator called <a href="https://www.11ty.io/docs/">eleventy</a> to spit out the website html from a bunch of templates and data files. I'll give a quick walkthrough of what all the files in here represent.
 
 - **css**: For any website, the css code is what turns a buch of hyperlinks and times new roman headers into an actual website. It basically contains all of the formatting and stuff that makes the website look the way it does.
-- **dist**: This is eleventy's output folder. Basically, if you just took this folder and uploaded it to the server, you'd have the real, functional website.
+- **dist**: This is eleventy's output folder. Basically, if you just took the contents of this folder and uploaded it to the server, you'd have the real, functional website.
 - **documents**: Our bylaws and constitution are in here, because they're accessible on the website.
 - **fonts**: I haven't looked in here but I assume it has the fonts that the css references.
 - **images**: This is where we keep our custom images. Most of the stuff in here is the faces of team members and logos for constituent orgs, plus our own logo and a couple other things. If you want to put it on the website, put it here.
@@ -12,7 +12,7 @@ This is a new repository I made for the Hokie PRIDE website source code, so we h
 - **mailchimp**: I think this was supposed to be for the mailchimp subscribe widget but that didn't end up working, at least not yet.
 - **node-modules**: This stores a bunch of weird stuff that eleventy does that I don't want to mess with. Also plugins?
 - **src**: Here's the most important folder! This is all the source code, i.e. everything you actually edit to change the website. It contains a few subfolders that are important to talk about.
-  - **data**: Includes all of the .js files that supply info about variables to eleventy. Each file is essential an array of objects/structs/whatever you wanna call them that each contain a set of information about a thing. For example, the team.js file contains info on the name, pronouns, bio, strengths, duties, and fun facts of each team member, and those values are represented by variables in the actual .html files so that team member info can be updated in the .js file and the updates can be propogated throughout the site.
+  - **data**: Includes all of the .js files that supply info about variables to eleventy. Each file is essentialy an array of objects/structs/whatever you wanna call them that each contain a set of information about a thing. For example, the team.js file contains info on the name, pronouns, bio, strengths, duties, and fun facts of each team member, and those values are represented by variables in the actual .html files so that team member info can be updated in the .js file and the updates can be propogated throughout the site.
   - **includes**: Has two folders, components and layouts. Components include the header and footer templates, which are then included within the main default layout under *layouts*. These define the basic structure of every page on the site, meaning that as long as you add a front-matter variable `layout: layouts/default` to the other source code files you can automatically plug them into the normal page format.  Speaking of which:
   
 # II. What the Hell am I Talking About?
