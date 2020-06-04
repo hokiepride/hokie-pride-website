@@ -168,11 +168,11 @@ module.exports = [
   },
   {
     "id": "webtech",
-    "name": "Lexi Flad",
-    "pronouns": "She/They",
+    "name": "Angela Ngo",
+    "pronouns": "they/them",
     "position": "Web & Technology Chair",
-    "image": "/images/faces/Lexi.jpg",
-    "bio": "I'm a Mechanical Engineering major from right here in Blacksburg, and I'm really excited to make things as nice as possible for you all going forward. I like writing, music, and games, and I can talk your ear off about anything.   ",
+    "image": "/images/faces/Angela.jpg",
+    "bio": "bio not yet ready",
     "duties": [
                 "Maintain and regularly update the organization's website:",
                 "Update permissions and rosters of officers on our Facebook page, Facebook Group, EC listserv, General Body listserv, and Google Drive as needed when officers leave or are elected;",
@@ -180,17 +180,13 @@ module.exports = [
                 "Work with the Resource Manager to help maintain the Google Drive; and",
                 "Co-manage the GobblerConnect site with the President."
                ],
-    "strengths": ["Adaptability",
-                  "Connectedness",
-                  "Relator",
-                  "Harmony",
-                  "Input"],
+    "strengths": ["",
+                  "",
+                  "",
+                  "",
+                  ""],
     "funfacts": [
-                  "Most of my friends live halfway across the world!",
-                  "...",
                   "",
-                  "",
-                  ",,,graphic design",
                 ],
   },
   {
