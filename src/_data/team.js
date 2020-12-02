@@ -214,4 +214,29 @@ module.exports = [
                   "I love snow (except the icky, heavy, rain-like stuff)."
                 ],
   },
+  {
+    "id": "advertising",
+    "name": "William Vaughn",
+    "pronouns": "He/Him",
+    "position": "Advertising & Fundraising Chair",
+    "image": "/images/faces/Will.jpg",
+    "bio": "bio not yet ready",
+    "duties": [
+                "Work to generate all advertisement and promotional materials for HokiePRIDE events and/or programming according to established programming standards and timelines;",
+                "Work to maintain consistent branding of HokiePRIDE and the organization’s visual identity as represented in any printed or digital materials;",
+                "Coordinate fundraising events in collaboration with other organizations; and",
+                "Coordinate with other UCSOs and RSOs to facilitate advertising for other events happening on campus or in the New River Valley community."
+              ],
+    "strengths": ["",
+                  "",
+                  "",
+                  "",
+                  ""],
+    "funfacts": [
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+  },
 ]
