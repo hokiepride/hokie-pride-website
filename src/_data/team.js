@@ -214,27 +214,4 @@ module.exports = [
                   "I love snow (except the icky, heavy, rain-like stuff)."
                 ],
   },
-  {
-    "id": "social",
-    "name": "Erin Cross-Kaplan",
-    "pronouns": "She/Her",
-    "position": "Social Media Chair",
-    "image": "/images/faces/Erin.jpg",
-    "bio":"I am a sophomore cadet at Virginia Tech studying chemistry.  I love playing the piano, reading and writing, and hiking.",
-    "duties": [
-                "Maintain and curate the organization’s social media presence to be a safe and inclusive virtual environment for all HokiePRIDE members in accordance with Article III of the Constitution;",
-                "Send announcements over social media for all HokiePRIDE General Body Meetings and events, using content provided by the Advertising Chair; and",
-                "Coordinating responses to direct messages on all social media platforms."
-              ],
-    "strengths": ["Input",
-                  "Achiever",
-                  "Intellection",
-                  "Discipline",
-                  "Strategic"],
-    "funfacts": [
-                  "I studied Latin for 3 years.",
-                  "I am a twin.",
-                  "I'm from San Francisco, CA."
-                ],
-  },
 ]
