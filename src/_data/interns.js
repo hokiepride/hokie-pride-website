@@ -1,12 +1,3 @@
 module.exports = [
-  {
-    "name": "Gabriella Marchetti",
-    "pronouns": "She/Her",
-    "image": "/images/faces/Gabriella.jpg"
-  },
-  {
-    "name": "Lami Akinyemi",
-    "pronouns": "He/Him",
-    "image": "/images/faces/Lami.jpg"
-  },
+  
 ]

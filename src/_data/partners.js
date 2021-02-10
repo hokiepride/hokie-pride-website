@@ -8,8 +8,8 @@ module.exports = [
     "shortBio": "Welcomes LGBTQ+ folks and those exploring their gender and sexuality to connect and share experiences. ",
     "longBio":  `
                   <p>This group welcomes folks who identify as LGBTQ+, as well as those who are exploring their gender and/or sexual identity, to connect and share their experiences. Feel free to come late, leave early, and/or bring food. Food is provided the first Monday of every month!</p>
-                  <p>For fall 2018, the group will start on August 27th and will meet Mondays from 5:30-7:00 pm in the LGBTQ+ Resource Center (Squires 227).</p>
-                  <p>For questions or more information, contact the group facilitator, Jordan Harrison, at <a href="mailto:harrisoj@vt.edu">harrisoj@vt.edu</a>!</h4>
+                  <p>For Spring 2021, the group meets biweekly on Mondays starting February 1st from 5:30 to 6:30 PM on Zoom.</p>
+                  <p>For questions or more information, contact Jess Westcott at <a href="mailto:jessw19@vt.edu">jessw19@vt.edu</a> or Swathi Prabhu at <a href="mailto:swathip@vt.edu">swathip@vt.edu</a>!</h4>
                 `
   },
   {
@@ -61,16 +61,6 @@ module.exports = [
                 `
   },
   {
-    "image": "/images/partners/spAAce.png",
-    "shortName": "spAAce",
-    "longName": "spAAce",
-    "shortBio": "A support group for people on the asexual or aromantic spectrum. ",
-    "longBio":  `
-                  <p>spAAce is a community for those on the asexual and aromantic spectrum as well as allies. It meets at 6pm the 2nd and 4th Fridays of each month.</p>
-                  <p>If you have any questions, contact <a href="mailto:kinseyc8@vt.edu">kinseyc8@vt.edu</a>.</h4>
-                `
-  },
-  {
     "image": "/images/partners/caucus.png",
     "shortName": "LGBT Caucus @ VT",
     "longName": "LGBT Faculty & Staff Caucus",
@@ -92,6 +82,29 @@ module.exports = [
                 `
   },
   {
+    "slugname": "ostem",
+    "image": "/images/partners/ostem-old.png",
+    "shortName": "oSTEM",
+    "longName": "Out in STEM at Virginia Tech",
+    "shortBio": "A national organization focused on LGBTQ+ issues in STEM fields.",
+    "longBio":  `
+                  <p>Started in October 2005, oSTEM is a national student-run organization that exists to serve and affirm LGBTQA individuals and their allies in academia and the workplace. As a national organization, oSTEM exists to support LGBTQA students and other individuals in the fields of science, technology, engineering, and mathematics by creating a dynamic network that connects students to professionals in their fields of study, as well as to each other. The Virginia Tech chapter of oSTEM existed to foster leadership and community for LGBTQA students in STEM fields, and to prepare them for a future after university.</p>
+                  <p>You can find the national oSTEM website at <a href="https://www.ostem.org">ostem.org</a>.</h4>
+                `
+  },
+  {
+    "category": "inactive",
+    "slugName": "spaaace",
+    "image": "/images/partners/spAAce-grayscale.png",
+    "shortName": "spAAce",
+    "longName": "spAAce",
+    "shortBio": "A support group for people on the asexual or aromantic spectrum. ",
+    "longBio":  `
+                  <p>spAAce is a community for those on the asexual and aromantic spectrum as well as allies. </p>
+                  <p>Currently, this org is inactive and not officially recognized.  Contact us if you're interested in rebooting it!</h4>
+                `
+  },
+  {
     "category": "inactive",
     "slugName": "qgpa",
     "image": "/images/partners/qgpa.png",
@@ -103,18 +116,5 @@ module.exports = [
                   <p>For questions, contact them at <a href="mailto:qgpavt@gmail.com">qgpavt@gmail.com</a>!</p>
                   <p>Currently, this org is inactive and not officially recognized.  Contact us if you're interested in rebooting it!</h4>
                 `
-  },
-  {
-    "category": "inactive",
-    "slugname": "ostem",
-    "image": "/images/partners/ostem.png",
-    "shortName": "oSTEM",
-    "longName": "Out in STEM at Virginia Tech",
-    "shortBio": "A national organization focused on LGBTQ+ issues in STEM fields.",
-    "longBio":  `
-                  <p>Started in October 2005, oSTEM is a national student-run organization that exists to serve and affirm LGBTQA individuals and their allies in academia and the workplace. As a national organization, oSTEM exists to support LGBTQA students and other individuals in the fields of science, technology, engineering, and mathematics by creating a dynamic network that connects students to professionals in their fields of study, as well as to each other. The Virginia Tech chapter of oSTEM existed to foster leadership and community for LGBTQA students in STEM fields, and to prepare them for a future after university.</p>
-                  <p>You can find the national oSTEM website at <a href="https://www.ostem.org">ostem.org</a>.</p>
-                  <p>Currently, the VT chapter is inactive and not officially recognized.  Contact us if you're interested in rebooting it!</h4>
-                `
-  }
+  } 
 ]
