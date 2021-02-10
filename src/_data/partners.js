@@ -94,7 +94,6 @@ module.exports = [
   },
   {
     "category": "inactive",
-    "slugName": "spaaace",
     "image": "/images/partners/spAAce-grayscale.png",
     "shortName": "spAAce",
     "longName": "spAAce",
