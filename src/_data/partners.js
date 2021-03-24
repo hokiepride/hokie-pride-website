@@ -89,7 +89,12 @@ module.exports = [
     "shortBio": "A national organization focused on LGBTQ+ issues in STEM fields.",
     "longBio":  `
                   <p>Started in October 2005, oSTEM is a national student-run organization that exists to serve and affirm LGBTQA individuals and their allies in academia and the workplace. As a national organization, oSTEM exists to support LGBTQA students and other individuals in the fields of science, technology, engineering, and mathematics by creating a dynamic network that connects students to professionals in their fields of study, as well as to each other. The Virginia Tech chapter of oSTEM existed to foster leadership and community for LGBTQA students in STEM fields, and to prepare them for a future after university.</p>
-                  <p>You can find the national oSTEM website at <a href="https://www.ostem.org">ostem.org</a>.</h4>
+                  
+                  <ul>oSTEM can be contacted via:
+                    <li>Email: <a href="mailto:vtostem@gmail.com">vtostem@gmail.com</a></li>
+                    <li>Instagram: <a href="https://www.instagram.com/vtostem/ ">@vtostem</a></li>
+                    <li>Facebook: <a href="https://www.facebook.com/oSTEMatVT">oSTEMatVT</a></li>
+                  </ul>
                 `
   },
   {
